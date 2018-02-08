@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+  <header class="top-header">
+  	<nav class="top-nav">
+      <a href="#">Home</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+  
+  <div class="container">
+  	<header>
+  	  <p>
+        <span>Item</span>
+        <br/> Recommendation
+      </p>
+  	</header>
+  <section class=”main-section”>
+  	<aside id="item-nav">
+  		<div class="nav-icon">
+        <i class="fa fa-sitemap fa-2x"></i>
+      </div>
+      <nav class="main-nav">
+        <a href="#" id="nearby-btn" class="main-nav-btn active">
+          <i class="fa fa-map-marker"></i> Nearby
+        </a>
+        <a href="#" id="fav-btn" class="main-nav-btn">
+          <i class="fa fa-heart"></i> My Favorites
+        </a>
+        <a href="#" id="recommend-btn" class="main-nav-btn">
+          <i class="fa fa-thumbs-up"></i> Recommendation
+        </a>
+      </nav>
+  		
+  	</aside>
+  	
+  </section>
+  	
+  </div>
+  <footer></footer>
+</body>
+</html>
